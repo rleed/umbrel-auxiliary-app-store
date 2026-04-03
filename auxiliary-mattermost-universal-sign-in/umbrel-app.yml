@@ -1,30 +1,22 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
-category: Development
+id: auxiliary-mattermost-universal-sign-in
+name: Mattermost Universal Sign-in
+tagline: Universal Sign-in for Mattermost
+category: Social
 version: "1.0.0"
-port: 4000
+port: 8766
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
-
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
-gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  Universal Sign-in allows users to sign in using a Lightning node id or a bitcoin address they control.
+developer: rleed
+website: https://github.com/rleed
+submitter: rleed
+submission: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app
+repo: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app
+support: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app/issues
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
-dependencies: []
+  Initial release.
+dependencies:
+  - mattermost
 path: ""
 defaultUsername: ""
 defaultPassword: ""
