@@ -6,7 +6,7 @@ category: Social
 version: "1.0.0"
 port: 8766
 description: >-
-  Universal Sign-in allows users to sign in using a Lightning node id or a bitcoin address they control.
+  Universal Sign-in allows users to sign in using a Lightning node id or a Bitcoin address they control.
 gallery: []
 developer: rleed
 website: https://github.com/rleed
