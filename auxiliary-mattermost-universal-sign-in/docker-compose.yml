@@ -7,8 +7,10 @@ services:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: auxiliary-mattermost-universal-sign-in_server_1
       APP_PORT: 8066
-    
+
   server:
-    image: rleed/umbrel-mattermost-universal-sign-in:latest
+    image: ghcr.io/rleed/umbrel-mattermost-universal-sign-in:latest
+    restart: on-failure
+    stop_grace_period: 1m
     user: "1000:1000"
     init: true
