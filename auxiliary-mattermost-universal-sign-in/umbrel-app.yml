@@ -11,9 +11,9 @@ gallery: []
 developer: rleed
 website: https://github.com/rleed
 submitter: rleed
-submission: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app
-repo: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app
-support: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app/issues
+submission: https://github.com/rleed/umbrel-mattermost-universal-sign-in
+repo: https://github.com/rleed/umbrel-mattermost-universal-sign-in
+support: https://github.com/rleed/umbrel-mattermost-universal-sign-in/issues
 releaseNotes: ""
 dependencies: []
 path: ""
