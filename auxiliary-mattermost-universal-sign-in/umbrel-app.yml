@@ -7,18 +7,14 @@ version: "1.0.0"
 port: 8766
 description: >-
   Universal Sign-in allows users to sign in using a Lightning node id or a bitcoin address they control.
-gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+gallery: []
 developer: rleed
 website: https://github.com/rleed
 submitter: rleed
 submission: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app
 repo: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app
 support: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app/issues
-releaseNotes: >-
-  Initial release.
+releaseNotes: ""
 dependencies: []
 path: ""
 defaultUsername: ""
