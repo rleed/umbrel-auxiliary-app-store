@@ -15,8 +15,7 @@ repo: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app
 support: https://github.com/rleed/umbrel-mattermost-universal-sign-in-app/issues
 releaseNotes: >-
   Initial release.
-dependencies:
-  - mattermost
+dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
