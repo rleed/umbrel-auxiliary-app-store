@@ -4,7 +4,7 @@ name: Mattermost Universal Sign-in
 icon: https://raw.githubusercontent.com/rleed/umbrel-auxiliary-app-store/master/auxiliary-mattermost-universal-sign-in/icon.svg
 tagline: Universal Sign-in for Mattermost
 category: Social
-version: "1.0.2"
+version: "1.0.3"
 port: 8766
 description: >-
   Universal Sign-in allows users to sign in using a Lightning node id or a Bitcoin address they control.
