@@ -1,4 +1,4 @@
-manifestVersion: 1
+manifestVersion: 1.1
 id: auxiliary-mattermost-universal-sign-in
 name: Mattermost Universal Sign-in
 icon: https://raw.githubusercontent.com/rleed/umbrel-auxiliary-app-store/master/auxiliary-mattermost-universal-sign-in/icon.svg
