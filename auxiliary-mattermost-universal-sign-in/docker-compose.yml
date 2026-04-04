@@ -15,12 +15,4 @@ services:
     user: "1000:1000"
     init: true
     volumes:
-      - app_data:/data
-
-volumes:
-  app_data:
-    driver: local
-    driver_opts:
-      type: none
-      device: ${APP_DATA_DIR}/data
-      o: bind
+      - ${APP_DATA_DIR}/data:/data
