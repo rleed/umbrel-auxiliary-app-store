@@ -42,6 +42,9 @@ releaseNotes: |-
   
   ## Add a tip to your login page
   In your Mattermost System Console under Customization, enter a Custom Brand Text such as `Please switch to [Universal Sign-in](/sign-in)`
+
+  ## Create a "Welcome" team
+  Newly created users will automatically be added to this team (see issue #1).
   
 dependencies: []
 path: ""
