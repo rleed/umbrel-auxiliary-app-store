@@ -15,7 +15,8 @@ submitter: rleed
 submission: https://github.com/rleed/umbrel-mattermost-universal-sign-in
 repo: https://github.com/rleed/umbrel-mattermost-universal-sign-in
 support: https://github.com/rleed/umbrel-mattermost-universal-sign-in/issues
-releaseNotes: ""
+releaseNotes: >-
+  Test.
 dependencies: []
 path: ""
 defaultUsername: ""
