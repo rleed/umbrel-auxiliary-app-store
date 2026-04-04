@@ -7,7 +7,7 @@ services:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: auxiliary-mattermost-universal-sign-in_server_1
       APP_PORT: 8066
-      PROXY_AUTH_ADD: "false"
+      PROXY_AUTH_WHITELIST: "/sign-in*"
 
   server:
     image: ghcr.io/rleed/umbrel-mattermost-universal-sign-in:latest
