@@ -26,16 +26,8 @@ support: https://github.com/rleed/umbrel-mattermost-universal-sign-in/issues
 releaseNotes: |-
   ## Configure the Universal Sign-in app as follows:
   1. Login to your Umbrel via SSH
-  2. pico ~/umbrel/app-data/auxiliary-mattermost-universal-sign-in/docker-compose.yml
-  3. In the `server:` block, add the following sub-block with custom values:
-  ```
-    environment:
-      MM_URL: https://your.domain.com
-      MM_TOKEN: abcdefghijklmnopqrstuvwxyz
-      HARD_PASS: EnterAnyVeryHardToGuessPasswordHere
-      MEMPOOL_URL: https://mempool.guide
-  ```
-  4. Restart the Universal Sign-in app for the changes to take effect
+  2. pico ~/umbrel/app-data/auxiliary-mattermost-universal-sign-in/data/env
+  3. Restart the Universal Sign-in app for the changes to take effect
   
   ## Configure your web server
   Reverse-proxy the `/sign-in` route to this app, while continuing to serve all other routes from your Mattermost instance.
