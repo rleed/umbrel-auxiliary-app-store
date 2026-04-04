@@ -13,3 +13,5 @@ services:
     stop_grace_period: 1m
     user: "1000:1000"
     init: true
+    volumes:
+      - ${UMBREL_ROOT}/app-data/auxiliary-mattermost-universal-sign-in/data:/app/data
