@@ -1,3 +1,4 @@
+version: "3.7"
 services:
 
   app_proxy:
@@ -14,4 +15,4 @@ services:
     user: "1000:1000"
     init: true
     volumes:
-      - ${APP_DATA_DIR}/data:/usr/src/app/data
+      - ${APP_DATA_DIR}/data:/data
