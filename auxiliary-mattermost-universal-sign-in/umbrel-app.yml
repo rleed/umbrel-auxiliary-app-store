@@ -27,6 +27,7 @@ releaseNotes: |-
   ## Configure the Universal Sign-in app as follows:
   1. Login to your Umbrel via SSH
   2. pico ~/umbrel/app-data/auxiliary-mattermost-universal-sign-in/data/env
+    - Note: If upgrading, manually add `MM_TEAM=welcome` or similar to your existing env file.
   3. Restart the Universal Sign-in app for the changes to take effect
   
   ## Configure your web server
