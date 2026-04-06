@@ -4,7 +4,7 @@ name: Universal Sign-in for Mattermost
 icon: https://raw.githubusercontent.com/rleed/umbrel-auxiliary-app-store/master/images/mattermost-universal-sign-in/icon.svg
 tagline: Universal Sign-in for Mattermost
 category: Social
-version: "1.1.6"
+version: "1.2.0"
 port: 8766
 description: >-
   Universal Sign-in allows users to sign in using a Lightning node id or a Bitcoin address they control.
@@ -35,9 +35,6 @@ releaseNotes: |-
   ## Add a tip to your login page
   In your Mattermost System Console under Customization, enter a Custom Brand Text such as `Please switch to [Universal Sign-in](/sign-in)`
 
-  ## Create a "Welcome" team
-  Newly created users will automatically be added to this team (see issue #1).
-  
 dependencies: []
 path: ""
 defaultUsername: ""
